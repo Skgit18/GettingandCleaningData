@@ -1,4 +1,4 @@
-# GettingandCleaningData
+# Getting and Cleaning Data
 Assignment: Getting and Cleaning Data Course Project
 
 This project analyzes data collected from the accelerometers of the Samsung Galaxy S smartphone. 
