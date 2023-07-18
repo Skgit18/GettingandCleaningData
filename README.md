@@ -1,8 +1,10 @@
 # Getting and Cleaning Data
 
 This project is part of the **Getting and Cleaning Data** course by Johns Hopkins University on Coursera. Its focus is analyzing data collected from the accelerometers of the Samsung Galaxy S smartphone. 
-A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-  
+A full description is available [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
+
+Data: [Human Activity Recognition Using Smartphones](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+
 This project includes:
 1. R script, **run_analysis.R**, which performs the following.
   - Merges the training and the test sets to create one data set.
