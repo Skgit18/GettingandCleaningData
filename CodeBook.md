@@ -1,5 +1,6 @@
-## Code Book for run_analysis.R
+# Code Book
 
+## About run_analysis.R
 1. **Setting the Working Directory:**
    - The code starts by setting the working directory using the `setwd()` function, providing the path to the directory where the data will be stored.
 
@@ -37,72 +38,6 @@
    - The variable names "V1" and "activity_names" are renamed to "Subject" and "Activity Name", respectively, in the resulting `tidy_data`.
    - The `write.table()` function is used to write the `tidy_data` to a file named "tidy_data.txt" in the working directory, with `row.names = FALSE`.
 
-# Variables
- [1] "Subject"                                    
- [2] "Activity Name"                              
- [3] "TimeBodyAccelerometerMean-X"                
- [4] "TimeBodyAccelerometerMean-Y"                
- [5] "TimeBodyAccelerometerMean-Z"                
- [6] "TimeBodyAccelerometerSTD-X"                 
- [7] "TimeBodyAccelerometerSTD-Y"                 
- [8] "TimeBodyAccelerometerSTD-Z"                 
- [9] "TimeGravityAccelerometerMean-X"             
-[10] "TimeGravityAccelerometerMean-Y"             
-[11] "TimeGravityAccelerometerMean-Z"             
-[12] "TimeGravityAccelerometerSTD-X"              
-[13] "TimeGravityAccelerometerSTD-Y"              
-[14] "TimeGravityAccelerometerSTD-Z"              
-[15] "TimeBodyAccelerometerJerkMean-X"            
-[16] "TimeBodyAccelerometerJerkMean-Y"            
-[17] "TimeBodyAccelerometerJerkMean-Z"            
-[18] "TimeBodyAccelerometerJerkSTD-X"             
-[19] "TimeBodyAccelerometerJerkSTD-Y"             
-[20] "TimeBodyAccelerometerJerkSTD-Z"             
-[21] "TimeBodyGyroscopeMean-X"                    
-[22] "TimeBodyGyroscopeMean-Y"                    
-[23] "TimeBodyGyroscopeMean-Z"                    
-[24] "TimeBodyGyroscopeSTD-X"                     
-[25] "TimeBodyGyroscopeSTD-Y"                     
-[26] "TimeBodyGyroscopeSTD-Z"                     
-[27] "TimeBodyGyroscopeJerkMean-X"                
-[28] "TimeBodyGyroscopeJerkMean-Y"                
-[29] "TimeBodyGyroscopeJerkMean-Z"                
-[30] "TimeBodyGyroscopeJerkSTD-X"                 
-[31] "TimeBodyGyroscopeJerkSTD-Y"                 
-[32] "TimeBodyGyroscopeJerkSTD-Z"                 
-[33] "TimeBodyAccelerometerMagnitudeMean"         
-[34] "TimeBodyAccelerometerMagnitudeSTD"          
-[35] "TimeGravityAccelerometerMagnitudeMean"      
-[36] "TimeGravityAccelerometerMagnitudeSTD"       
-[37] "TimeBodyAccelerometerJerkMagnitudeMean"     
-[38] "TimeBodyAccelerometerJerkMagnitudeSTD"      
-[39] "TimeBodyGyroscopeMagnitudeMean"             
-[40] "TimeBodyGyroscopeMagnitudeSTD"              
-[41] "TimeBodyGyroscopeJerkMagnitudeMean"         
-[42] "TimeBodyGyroscopeJerkMagnitudeSTD"          
-[43] "FrequencyBodyAccelerometerMean-X"           
-[44] "FrequencyBodyAccelerometerMean-Y"           
-[45] "FrequencyBodyAccelerometerMean-Z"           
-[46] "FrequencyBodyAccelerometerSTD-X"            
-[47] "FrequencyBodyAccelerometerSTD-Y"            
-[48] "FrequencyBodyAccelerometerSTD-Z"            
-[49] "FrequencyBodyAccelerometerJerkMean-X"       
-[50] "FrequencyBodyAccelerometerJerkMean-Y"       
-[51] "FrequencyBodyAccelerometerJerkMean-Z"       
-[52] "FrequencyBodyAccelerometerJerkSTD-X"        
-[53] "FrequencyBodyAccelerometerJerkSTD-Y"        
-[54] "FrequencyBodyAccelerometerJerkSTD-Z"        
-[55] "FrequencyBodyGyroscopeMean-X"               
-[56] "FrequencyBodyGyroscopeMean-Y"               
-[57] "FrequencyBodyGyroscopeMean-Z"               
-[58] "FrequencyBodyGyroscopeSTD-X"                
-[59] "FrequencyBodyGyroscopeSTD-Y"                
-[60] "FrequencyBodyGyroscopeSTD-Z"                
-[61] "FrequencyBodyAccelerometerMagnitudeMean"    
-[62] "FrequencyBodyAccelerometerMagnitudeSTD"     
-[63] "FrequencyBodyAccelerometerJerkMagnitudeMean"
-[64] "FrequencyBodyAccelerometerJerkMagnitudeSTD" 
-[65] "FrequencyBodyGyroscopeMagnitudeMean"        
-[66] "FrequencyBodyGyroscopeMagnitudeSTD"         
-[67] "FrequencyBodyGyroscopeJerkMagnitudeMean"    
-[68] "FrequencyBodyGyroscopeJerkMagnitudeSTD"
+## About Vectors and Variables
+All the vectors/variables used in the R code are written to be self-explanatory. 
+For example, `train_data`, `train_labels`, and `train_subjects` represented train data, labels for train data, and subjects of train data, respectively.
